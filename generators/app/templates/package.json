@@ -5,7 +5,8 @@
   "main": "server.js",
   "scripts": {
     "build:css": "stylus assets/stylus/app.styl --out assets/css --sourcemap --compress",
-    "watch:css": "stylus assets/stylus/app.styl --out assets/css --sourcemap --compress --watch"
+    "watch:css": "stylus assets/stylus/app.styl --out assets/css --sourcemap --compress --watch",
+    "build:js": "jspm bundle-sfx main.js dist/app-built.js"
   },
   "author": "",
   "license": "MIT",

@@ -1,0 +1,28 @@
+{
+  "name": "generator-react-jspm",
+  "version": "0.1.0",
+  "description": "A React/jspm Full Project generator, using Redux",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tyrsius/generator-react-jspm.git"
+  },
+  "keywords": [
+    "yeoman-generator"
+  ],
+  "author": "Tyrsius",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/tyrsius/generator-react-jspm/issues"
+  },
+  "homepage": "https://github.com/tyrsius/generator-react-jspm#readme",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "files": [
+    "generators/app"
+  ],
+  "dependencies": {
+    "yeoman-generator": "^0.22.1"
+  }
+}

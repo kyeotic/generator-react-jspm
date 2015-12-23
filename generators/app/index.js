@@ -17,9 +17,10 @@ module.exports = generators.Base.extend({
       this.destinationRoot(),
       { appName: this.name }
     ); //<%= value %>
-  },
-  install: function () {
-    this.npmInstall();
-    this.spawnCommand('jspm', ['install']);
   }
+  // ,
+  // install: function () {
+  //   this.spawnCommand('npm', ['install']);
+  //   this.spawnCommand('node_modules/.bin/jspm', ['install']);
+  // }
 });

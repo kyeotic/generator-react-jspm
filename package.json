@@ -20,7 +20,8 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "files": [
-    "generators/app"
+    "generators/app",
+    "generators/component"
   ],
   "dependencies": {
     "yeoman-generator": "^0.22.1"

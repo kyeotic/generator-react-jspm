@@ -5,7 +5,7 @@ import persistState from 'redux-localstorage';
 
 const createConfiguredStore = compose(
   applyMiddleware(thunkMiddleware)
-  , persistState(/*paths, config*/)
+  //, persistState(/*paths, config*/)
 )(createStore);
 
 export default function configureStore(initialState) {

@@ -1,6 +1,6 @@
 {
   "name": "generator-react-jspm",
-  "version": "1.0.2",
+  "version": "1.0.5",
   "description": "A React/jspm Full Project generator, using Redux",
   "main": "index.js",
   "repository": {

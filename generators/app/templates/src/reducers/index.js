@@ -12,7 +12,7 @@ function reducer(state = { }, action) {
 }
 
 const rootReducer = combineReducers({
-	reducer
+	state: reducer
 });
 
 export default rootReducer;

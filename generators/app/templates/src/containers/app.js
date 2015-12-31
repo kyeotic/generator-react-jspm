@@ -2,7 +2,7 @@ import React, { Component, PropTypes } from 'react';
 import { connect } from 'react-redux';
 import { action } from 'actions/index';
 
-@connect(state => ({  }),
+@connect(state => ({ state }),
 	{ action }
 )
 export default class App extends Component {
@@ -13,7 +13,7 @@ export default class App extends Component {
 	render() {
 	    const { action } = this.props;
 		return (
-		    <div>
+		    <div>{'app'}
 		    </div>
 		);
 	}
